@@ -1,0 +1,3 @@
+[submodule "static/HMMA201"]
+	path = static/HMMA201
+	url = git@github.com:pbastide/HMMA201.git
