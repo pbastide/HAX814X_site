@@ -42,6 +42,8 @@ jobs:
 
       - name: Install tinytex
         uses: r-lib/actions/setup-tinytex@v1
+
+      - name: Check tinytex
         run: tlmgr --version
 
       - name: Build site
