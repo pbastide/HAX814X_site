@@ -1,4 +1,4 @@
-baseurl: /
+baseurl: https://hmma201.netlify.app
 languageCode: en-us
 title: HMMA201
 theme: hugo-lithium
