@@ -14,8 +14,8 @@ permalinks:
   post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: About
-      url: /about/
+    - name: Course materials
+      url: /materials/
     - name: GitHub
       url: https://github.com/pbastide/HMMA201
     - name: Moodle
