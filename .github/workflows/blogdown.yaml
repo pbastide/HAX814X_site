@@ -40,6 +40,10 @@ jobs:
         run: |
           R -e 'blogdown::install_hugo("0.80.0")'
 
+      - name: Install tinytex
+        uses: r-lib/actions/setup-tinytex@v1
+        run: tlmgr --version
+
       - name: Build site
         run: |
           R -e 'blogdown::build_site(TRUE)'
