@@ -14,6 +14,8 @@ title: Course materials
 
 - [Tests and Variable Selection](/HMMA201/slides/CM5/CM5_Tests_Variable_Selection.html)
 
+- [Model Validation](/HMMA201/slides/CM6/CM6_validation.html)
+
 # TDs
 
 - [TD1](/HMMA201/TD/TD1/TD_1.pdf)
