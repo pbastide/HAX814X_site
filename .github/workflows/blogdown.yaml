@@ -19,10 +19,7 @@ jobs:
           submodules: recursive
 
       - name: Update submodule
-        run: |
-          cd static/HMMA201
-          git pull --ff-only
-          cd ../..
+        run: git submodule update --remote --merge
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
