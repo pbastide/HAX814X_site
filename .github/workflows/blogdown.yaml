@@ -18,6 +18,10 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Update submodule
+        run: git pull
+        working-directory: ./static/HMMA201
+
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
 
