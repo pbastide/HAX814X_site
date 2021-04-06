@@ -16,6 +16,8 @@ title: Course materials
 
 - [Model Validation](/HMMA201/slides/CM6/CM6_validation.html)
 
+- [Anova](/HMMA201/slides/CM7/CM7_anova.html)
+
 # TDs
 
 - [TD1](/HMMA201/TD/TD1/TD_1.pdf)

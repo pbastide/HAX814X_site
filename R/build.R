@@ -1,5 +1,7 @@
 # An optional custom script to run before Hugo builds your site.
 # You can delete it if you do not need it.
+install.packages(c("palmerpenguins", "car"))
+
 blogdown::build_dir('static')
 
 latex_files <- list.files('static', pattern = ".*TD_.*.tex",
