@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      - main
+      - master
+
+name: deploy
+
+jobs:
+  trigger-site-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Trigger site build
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: blogdown
+          repo: pbastide/HAX814X_site
+          token: ${{ secrets.PERSONAL_TOKEN }}
