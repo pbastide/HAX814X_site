@@ -23,3 +23,8 @@ title: Course materials
 - [TD1](/HAX814X/TD/TD1/TD_1.pdf)
 
 - [TD2](/HAX814X/TD/TD2/TD_2.pdf)
+
+# Cheat sheets
+
+- [Usual Distributions](/HAX814X/cheatsheets/usual_distributions/usual_distributions.html)
+- [Moindres Carrés](/HAX814X/cheatsheets/Moindres_Carres/Moindres_Carres.html)
