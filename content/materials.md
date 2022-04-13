@@ -28,3 +28,4 @@ title: Course materials
 
 - [Usual Distributions](/HAX814X/cheatsheets/usual_distributions/usual_distributions.html)
 - [Moindres Carrés](/HAX814X/cheatsheets/Moindres_Carres/Moindres_Carres.html)
+- [Moindres Carrés Multiples](/HAX814X/cheatsheets/reg_line_multiple/regressionLineaireMultiple.html)
