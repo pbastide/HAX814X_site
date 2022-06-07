@@ -24,6 +24,10 @@ title: Course materials
 
 - [TD2](/HAX814X/TD/TD2/TD_2.pdf)
 
+- [TD3](/HAX814X/TD/TD3/TD_3.pdf)
+
+- [TD4](/HAX814X/TD/TD4/TD_4.pdf)
+
 # Cheat sheets
 
 **Avertissement**:
