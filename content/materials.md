@@ -27,7 +27,7 @@ title: Course materials
 # Cheat sheets
 
 **Avertissement**:
-Ces fiches de révision ont été rédigées par des étudiants, et sont fournies telles quelles, sans garantie.
+Ces fiches de révision ont été rédigées par des étudiant·e·s, et sont fournies telles quelles, sans garantie.
 N'hésitez pas à signaler les éventuelles erreurs ou typos par le biais d'un pull request.
 
 - [Usual Distributions](/HAX814X/cheatsheets/usual_distributions/usual_distributions.html)
