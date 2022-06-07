@@ -9,7 +9,7 @@ name: blogdown
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -35,6 +35,7 @@ jobs:
 
       - name: Install packages
         run: |
+          R -e 'install.packages("stringi")'
           R -e 'install.packages("renv")'
           R -e 'renv::restore()'
 
