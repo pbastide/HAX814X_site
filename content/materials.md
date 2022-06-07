@@ -26,6 +26,11 @@ title: Course materials
 
 # Cheat sheets
 
+**Avertissement**:
+Ces fiches de révision ont été rédigées par des étudiants, et sont fournies telles quelles, sans garantie.
+N'hésitez pas à signaler les éventuelles erreurs ou typos par le biais d'un pull request.
+
 - [Usual Distributions](/HAX814X/cheatsheets/usual_distributions/usual_distributions.html)
 - [Moindres Carrés](/HAX814X/cheatsheets/Moindres_Carres/Moindres_Carres.html)
 - [Moindres Carrés Multiples](/HAX814X/cheatsheets/reg_line_multiple/regressionLineaireMultiple.html)
+- [Modèle Gaussien Univarié](/HAX814X/cheatsheets/Regression_simple_gauss/Regression_simple_gauss.html)
