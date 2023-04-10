@@ -36,7 +36,6 @@ jobs:
       - name: Install packages
         run: |
           R -e 'install.packages("stringi", configure.args="--disable-pkg-config")'
-          R -e 'install.packages("lme4")'
           R -e 'install.packages("renv")'
           R -e 'renv::restore()'
 
