@@ -14,30 +14,16 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Checkout submodules
         run: git submodule update --init --recursive --remote --merge
 
-      - name: Setup R
-        uses: r-lib/actions/setup-r@v2
+      - uses: r-lib/actions/setup-pandoc@v2
 
-      - name: Install pandoc
-        run: |
-          brew install pandoc
+      - uses: r-lib/actions/setup-r@v2
 
-      - name: Cache Renv packages
-        uses: actions/cache@v2
-        with:
-          path: $HOME/.local/share/renv
-          key: r-${{ hashFiles('renv.lock') }}
-          restore-keys: r-
-
-      - name: Install packages
-        run: |
-          R -e 'install.packages("stringi", configure.args="--disable-pkg-config")'
-          R -e 'install.packages("renv")'
-          R -e 'renv::restore()'
+      - uses: r-lib/actions/setup-renv@v2
 
       - name: Install hugo
         run: |
