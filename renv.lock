@@ -16,6 +16,12 @@
       "Repository": "CRAN",
       "Hash": "e4c04affc2cac20c8fec18385cd14691"
     },
+    "pbkrtest": {
+      "Package": "pbkrtest",
+      "Version": "0.5.2",
+      "Source": "Repository",
+      "Repository": "CRAN"
+    }
     "MASS": {
       "Package": "MASS",
       "Version": "7.3-53",
