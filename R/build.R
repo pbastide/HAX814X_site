@@ -1,7 +1,7 @@
 # An optional custom script to run before Hugo builds your site.
 # You can delete it if you do not need it.
 install.packages(c("pbkrtest", "ggplot2", "palmerpenguins", "car", "prettydoc", "Rcpp"))
-install.packages("lme4", type = "source")
+install.packages("lme4")
 
 blogdown::build_dir('static')
 
