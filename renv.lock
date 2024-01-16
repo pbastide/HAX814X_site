@@ -21,7 +21,7 @@
       "Version": "0.5.2",
       "Source": "Repository",
       "Repository": "CRAN"
-    }
+    },
     "MASS": {
       "Package": "MASS",
       "Version": "7.3-53",
