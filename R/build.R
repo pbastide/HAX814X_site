@@ -1,6 +1,6 @@
 # An optional custom script to run before Hugo builds your site.
 # You can delete it if you do not need it.
-install.packages(c("ggplot2", "palmerpenguins", "car", "prettydoc", "Rcpp"))
+install.packages(c("ggplot2", "palmerpenguins", "car", "prettydoc", "Rcpp", "DAAG"))
 
 blogdown::build_dir('static')
 
