@@ -4,7 +4,7 @@ install.packages(c("ggplot2", "palmerpenguins", "car", "prettydoc", "Rcpp", "DAA
 
 blogdown::build_dir('static')
 
-latex_files <- list.files('static', pattern = ".*TD_.*.tex",
+latex_files <- list.files('static', pattern = ".*TD_.*.tex$",
                           recursive = TRUE, full.names = TRUE)
 for (f in latex_files) {
   xfun::Rscript_call(knitr::knit2pdf,
